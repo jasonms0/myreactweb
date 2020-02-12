@@ -1,7 +1,28 @@
 /* eslint-disable */
 const withCss = require('@zeit/next-css')
+const withLess = require('@zeit/next-less')
+const withFonts = require('next-fonts')
+const withImages = require('next-images')
 
-module.exports = withCss({
+const withPlugins = require("next-compose-plugins");
+
+const style = [
+  [withCss, {
+
+  }],
+  [withLess, {
+
+  }],
+  [withFonts, {
+
+  }],
+  [withImages, {
+
+  }],
+]
+
+module.exports = withPlugins([...style],{
+  distDir: 'dist',
   webpack: (config, { isServer }) => {
     if (isServer) {
       const antStyles = /antd\/.*?\/style\/css.*?/

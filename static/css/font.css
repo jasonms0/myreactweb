@@ -1,0 +1,13 @@
+@font-face
+{
+font-family: "myFirstFont";
+src: url('../fonts/HYYakuHei-85W.ttf');
+
+}
+
+
+.font1{
+    font-family:"myFirstFont";
+}
+
+

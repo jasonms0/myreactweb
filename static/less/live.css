@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "mySecondFont";
+  src: url('../fonts/STFANGSO.ttf');
+}
+.bg {
+  width: 100%;
+}
+.context {
+  width: 980px;
+  margin: 0 auto;
+}
+.context .location {
+  margin-top: 70px;
+  margin-left: 80px;
+}
+.context .location a {
+  font-weight: 700;
+}
+.context .adv {
+  width: 86%;
+  margin: 50px auto 0;
+  display: flex;
+  justify-content: space-around;
+}
+.hotel1 {
+  width: 86%;
+  margin: 40px auto 60px;
+  overflow: hidden;
+  position: relative;
+}
+.hotel1 div {
+  margin: 5px;
+  float: left;
+  position: relative;
+}
+.hotel1 div:first-child {
+  width: 357px;
+  height: 336px;
+}
+.hotel1 div:first-child span {
+  font-size: 20px;
+  line-height: 50px;
+}
+.hotel1 div:nth-of-type(2) {
+  width: 217px;
+  height: 164px;
+}
+.hotel1 div:nth-of-type(3) {
+  width: 217px;
+  height: 164px;
+}
+.hotel1 div:nth-of-type(4) {
+  width: 217px;
+  height: 164px;
+}
+.hotel1 div:last-child {
+  width: 217px;
+  height: 164px;
+}
+.hotel1 div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hotel1 div span {
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  padding-left: 8%;
+  background-color: rgba(0, 0, 0, 0.4);
+  transform: translate3d(-100%, 570%, 0);
+  color: #fff;
+}
+.title2 {
+  width: 20%;
+  color: #2479E4;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 28px;
+  margin: 50px auto 0;
+  position: relative;
+}
+.title2:after {
+  content: "";
+  width: 42px;
+  height: 4px;
+  border-radius: 2px;
+  background: #2479E4;
+  position: absolute;
+  transform: translate3d(-78px, 60px, 0);
+}
+.hotel2 {
+  width: 86%;
+  list-style: none;
+  overflow: hidden;
+  margin: 40px auto 60px;
+}
+.hotel2 li {
+  float: left;
+  margin: 5px 10px;
+}
+.hotel2 li div {
+  width: 260px;
+  height: 211px;
+}
+.hotel2 li div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hotel2 li p {
+  height: 40px;
+  line-height: 40px;
+}

@@ -1,0 +1,63 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/aboutus.js": 0,
+      "multi private-next-pages/hotel.js": 1,
+      "multi private-next-pages/index.js": 2,
+      "multi private-next-pages/live.js": 3,
+      "multi private-next-pages/loader.js": 4,
+      "multi private-next-pages/minsu.js": 5,
+      "multi private-next-pages/personal.js": 6,
+      "multi private-next-pages/routedetail.js": 7,
+      "multi next/dist/pages/_app": 8,
+      "multi next/dist/pages/_error": 9,
+      "multi next/dist/pages/_document": 10
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10
+    }
+  },
+  "chunks": {
+    "byName": {
+      "init-server.js": 0,
+      "on-error-server.js": 1,
+      "static\\oup_nz-KXe9HbcUG4tdHB\\pages\\_app.js": 2,
+      "static\\oup_nz-KXe9HbcUG4tdHB\\pages\\_document.js": 3,
+      "static\\oup_nz-KXe9HbcUG4tdHB\\pages\\_error.js": 4,
+      "static\\oup_nz-KXe9HbcUG4tdHB\\pages\\aboutus.js": 5,
+      "static\\oup_nz-KXe9HbcUG4tdHB\\pages\\hotel.js": 6,
+      "static\\oup_nz-KXe9HbcUG4tdHB\\pages\\index.js": 7,
+      "static\\oup_nz-KXe9HbcUG4tdHB\\pages\\live.js": 8,
+      "static\\oup_nz-KXe9HbcUG4tdHB\\pages\\loader.js": 9,
+      "static\\oup_nz-KXe9HbcUG4tdHB\\pages\\minsu.js": 10,
+      "static\\oup_nz-KXe9HbcUG4tdHB\\pages\\personal.js": 11,
+      "static\\oup_nz-KXe9HbcUG4tdHB\\pages\\routedetail.js": 12
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      12,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}

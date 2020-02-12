@@ -1,0 +1,11 @@
+@font-face
+{
+font-family: "mySecondFont";
+src: url('../fonts/STFANGSO.ttf');
+
+}
+
+
+.font2{
+    font-family:"mySecondFont";
+}

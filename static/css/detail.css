@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin:0
+}
+.about-content{
+    width:100%;
+}
+
+.overaaa{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.location{
+    margin-top: 70px;
+    margin-left: 80px;
+    margin-bottom: 60px;
+
+    
+}
+
+.location a{
+    font-weight: 700;
+}
+
+.overall,.overall img{
+    margin-left: 10%;
+    width: 80%;
+    height: 300px;
+}
+
+.img1 img{
+    width: 100%;
+    height: 200px;
+}
+.overall p{
+    font-size:24px;
+    margin-left:10%
+}
+.first,.second,.third{
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.first .lunbo {
+    width:50%;
+    display: inline-block;
+}
+.first .outline{
+    width: 50%;
+    display: inline-block;
+    font-size:12px;
+}
+.first .outline p{
+    font-size:12px
+}
+.first .outline h2{
+    padding-left: 38px;
+}
+.first .outline .outline-first{
+    font-size:12px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    word-wrap:break-word
+}
+.second-content{
+    position: relative;
+}
+.second-left{
+    position: absolute;
+    width:25%;
+    left:10%;
+    display: inline-block;
+}
+.second-right{
+    width:75%;
+    display: inline-block;
+    margin-left: 20%;
+    padding-left:20px;
+    border-left:solid rgba(184, 184, 184,.5) 2px;
+    font-size:15px;
+}
+.second-right p{
+    font-size:12px
+}
+.second-right img{
+    width:30%
+}
+.third ul li{
+    float: left;
+    width:25%;
+    padding: 10px;
+    list-style: none;
+}

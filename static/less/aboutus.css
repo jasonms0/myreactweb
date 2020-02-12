@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "mySecondFont";
+  src: url('../fonts/STFANGSO.ttf');
+}
+.bg {
+  width: 100%;
+}
+.context {
+  width: 980px;
+  margin: 0 auto;
+}
+.context .location {
+  margin-top: 70px;
+  margin-left: 80px;
+}
+.context .location a {
+  font-weight: 700;
+}
+.context .title1 {
+  width: 20%;
+  color: #2479E4;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 28px;
+  margin: 66px auto 0;
+  position: relative;
+}
+.context .title1:after {
+  content: "";
+  width: 42px;
+  height: 4px;
+  border-radius: 2px;
+  background: #2479E4;
+  position: absolute;
+  transform: translate3d(-92px, 60px, 0);
+}
+.context .adv {
+  width: 86%;
+  margin: 50px auto 0;
+  display: flex;
+  justify-content: space-around;
+}
+.ant-card-meta-title {
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: "mySecondFont";
+}
+.ant-card-meta-description {
+  font-size: 8px;
+  text-align: center;
+  font-weight: 700;
+}
+.title2 {
+  width: 20%;
+  color: #2479E4;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 28px;
+  margin: 90px auto 0;
+  position: relative;
+}
+.title2:after {
+  content: "";
+  width: 42px;
+  height: 4px;
+  border-radius: 2px;
+  background: #2479E4;
+  position: absolute;
+  transform: translate3d(-78px, 60px, 0);
+}
+.company {
+  margin-top: 50px;
+  overflow: hidden;
+}
+.company img {
+  float: left;
+}
+.company .com-content {
+  width: 45%;
+  margin-left: 30px;
+  float: left;
+}

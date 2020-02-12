@@ -1,0 +1,144 @@
+.bg {
+  width: 100%;
+}
+.content {
+  width: 980px;
+  margin: 0 auto;
+}
+.content .location {
+  margin-top: 70px;
+  margin-left: 80px;
+}
+.content .location a {
+  font-weight: 700;
+}
+.content .middle-content {
+  width: 84%;
+  margin: 50px auto 0;
+  overflow: hidden;
+}
+.content .middle-content ul {
+  width: 100%;
+  list-style: none;
+}
+.content .middle-content ul li {
+  width: 204px;
+  height: 170px;
+  float: left;
+}
+.content .middle-content ul li img {
+  width: 100%;
+  height: 100%;
+}
+.content .middle {
+  width: 84%;
+  margin: 80px auto 0;
+}
+.content .middle ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.content .middle ul li {
+  width: 86px;
+}
+.content .middle ul li:nth-child(odd) {
+  text-align: center;
+}
+.content .middle ul li p {
+  height: 58px;
+  line-height: 58px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.content .bottom-content {
+  width: 84%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.content .bottom-content ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.content .bottom-content li {
+  width: 140px;
+}
+.content .bottom-content li .icon {
+  color: #2479e4;
+  font-size: 36px;
+  height: 100px;
+}
+.content .bottom-content li p {
+  width: 100%;
+  color: #2479e4;
+  text-align: center;
+  font-size: 16px;
+  height: 26px;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+.foot1 {
+  width: 100%;
+  background-color: #404040;
+  margin-top: 65px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+.foot1 h3 {
+  color: white;
+  letter-spacing: 4px;
+}
+.foot1 p {
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-top: 15px;
+}
+.foot1 .foot-content {
+  width: 30%;
+  margin: 40px auto 0;
+  overflow: hidden;
+}
+.foot1 .foot-content .form-content,
+.foot1 .foot-content .form-content2 {
+  width: 49%;
+  list-style: none;
+  float: left;
+}
+.foot1 .foot-content .form-content li,
+.foot1 .foot-content .form-content2 li {
+  width: 49%;
+  text-align: left;
+  height: 69px;
+  margin-bottom: 10px;
+}
+.foot1 .foot-content .form-content li label,
+.foot1 .foot-content .form-content2 li label {
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+}
+.foot1 .foot-content .form-content .col,
+.foot1 .foot-content .form-content2 .col {
+  color: #000;
+}
+.foot1 .foot-content .form-content button,
+.foot1 .foot-content .form-content2 button {
+  background-color: #0ba9e6;
+  color: white;
+  border: 0;
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  margin-top: 109px;
+}
+.anticon {
+  font-weight: 600;
+  position: relative;
+  margin: 50% 0 0 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
