@@ -17,7 +17,7 @@
     "formik": "^2.0.8",
     "http-proxy-middleware": "^0.20.0",
     "isomorphic-unfetch": "^3.0.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "less": "^3.10.3",
     "next": "latest",
     "next-compose-plugins": "^2.2.0",
